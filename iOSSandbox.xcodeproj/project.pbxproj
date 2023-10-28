@@ -14,6 +14,7 @@
 		FBA60C242AEA74EF00837533 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBA60C232AEA74EF00837533 /* Assets.xcassets */; };
 		FBA60C272AEA74EF00837533 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBA60C252AEA74EF00837533 /* LaunchScreen.storyboard */; };
 		FBA60C2F2AEA8AC200837533 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = FBA60C2E2AEA8AC200837533 /* .gitignore */; };
+		FBA60C382AED064F00837533 /* ImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA60C372AED064F00837533 /* ImageData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		FBA60C262AEA74EF00837533 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBA60C282AEA74EF00837533 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBA60C2E2AEA8AC200837533 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		FBA60C372AED064F00837533 /* ImageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		FBA60C192AEA74ED00837533 /* iOSSandbox */ = {
 			isa = PBXGroup;
 			children = (
+				FBA60C362AED063800837533 /* Model */,
 				FBA60C1A2AEA74ED00837533 /* AppDelegate.swift */,
 				FBA60C1C2AEA74ED00837533 /* SceneDelegate.swift */,
 				FBA60C1E2AEA74ED00837533 /* ViewController.swift */,
@@ -68,6 +71,14 @@
 				FBA60C282AEA74EF00837533 /* Info.plist */,
 			);
 			path = iOSSandbox;
+			sourceTree = "<group>";
+		};
+		FBA60C362AED063800837533 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FBA60C372AED064F00837533 /* ImageData.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +156,7 @@
 				FBA60C1F2AEA74ED00837533 /* ViewController.swift in Sources */,
 				FBA60C1B2AEA74ED00837533 /* AppDelegate.swift in Sources */,
 				FBA60C1D2AEA74ED00837533 /* SceneDelegate.swift in Sources */,
+				FBA60C382AED064F00837533 /* ImageData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

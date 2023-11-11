@@ -9,6 +9,18 @@ import Foundation
 
 final class DataManager {
     
+    let imageURL: String = "https://picsum.photos/"
+    var PageNo: Int = 1
+    var pageLimit: Int = 5
+    
+    func fetchImage(completion: @escaping ([ImageData]?) -> Void) {
+        let urlString = "\(imageURL)v2/list?page=\(PageNo)&limit=\(pageLimit)"
+        
+        performRequest(with: urlString) { imageData in
+            completion(imageData)
+        }
+    }
+    
     func performRequest(with urlString: String, completion: @escaping ([ImageData]?) -> Void) {
             
         // URL 구조체
